@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %} {% block title %} {{title}} {% endblock %}
+{%block content %}
+<h3>{{title}}</h3>
+<p>
+  <li>{{name}}.</li>
+  <li>Мне {{age}} лет.</li>
+  <li>Закончил {{edu}} в 2014 году.</li>
+  <li>{{main_skills}}.</li>
+  <li>
+    В ближайших планах начать изучение {{plans}}, PyTest (базовые навыки есть) и
+    начинать поиск работы.
+  </li>
+</p>
+{% endblock %}
